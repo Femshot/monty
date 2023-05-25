@@ -53,5 +53,8 @@ void pint_opp(stack_t **stack, unsigned int line_number);
 void swap_opp(stack_t **stack, unsigned int line_number);
 void add_opp(stack_t **stack, unsigned int line_number);
 void sub_opp(stack_t **stack, unsigned int line_number);
+void div_opp(stack_t **stack, unsigned int line_number);
+void mul_opp(stack_t **stack, unsigned int line_number);
+void mod_opp(stack_t **stack, unsigned int line_number);
 
 #endif

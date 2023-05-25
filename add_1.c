@@ -13,7 +13,8 @@ int exec_opp(char **token, stack_t **stack, unsigned int line_num)
 	unsigned int i = 0;
 	instruction_t op[] = {{"pall", pall_opp}, {"pint", pint_opp},
 		{"pop", pop_opp}, {"swap", swap_opp}, {"add", add_opp},
-		{"sub", sub_opp}};
+		{"sub", sub_opp}, {"mul", mul_opp}, {"div", div_opp},
+		{"mod", mod_opp}, {"null", NULL}};
 
 	for (i = 0; i < 14; i++)
 	{
